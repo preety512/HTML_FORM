@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>form</title>
+</head>
+<body>
+ Name<br/><input type="text"/><br/>
+ Qualification<br/>
+ <input type="checkbox"/><sup>10th</sup>
+ <input type="checkbox"/><sup>12th</sup>
+ <input type="checkbox"/>Deploma
+ <input type="checkbox"/>B.tech
+ <br/>
+ Gender<input checked name="gen" type="radio"/>male
+ Gender<input name="gen" type="radio"/>Female<br/>
+ DOB<input type="date"/><br/>
+ Datetime<input="datetime-local"/><br/>
+ 
+ Time<input type="time"/><br/>
+ color<input type="color"/><br/>
+ Mobile<input type="number"/><br/>
+ Password<input type="password"/><br/>
+ Fileuplode<input type="file">
+ 
+</html>
