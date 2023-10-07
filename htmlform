@@ -1,0 +1,17 @@
+<html>
+<head></head>
+<body>
+<h1>HTML form</h1>
+First name:
+     <input type="text"/><br/><br/>
+Last name:
+     <input type="text"/><br/><br/>
+E-mail:
+     <input type="mail"/><br/><br/>
+ 
+     <input type="radio"/>mail<br/>
+
+    <input type="radio"/>Femail
+
+</body>
+</html>
