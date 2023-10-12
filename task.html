@@ -1,0 +1,68 @@
+<html>
+<head></head>
+<body>
+<form method="post"enctype="multipart/form-data">
+<fieldset style="width:400px;">
+<legend>Form</legend>
+<label> First Name:</label><br/>
+<input required type="text"/placeholder="enter your name"name="name"autofocus autocomplete="off" tabindex="1"/><br/><br/>
+<label> Last Name:</label><br/>
+<input required type="text"/placeholder="enter your last name"name="lname" tabindex="2"/><br/><br/>
+<label>userid</label><br/>
+<input size="30"readonly value="AAP.23126" type="text"name="userid"><br/><br/>
+<label>Father's Name<br/>
+ <input required type="text"placeholder="enter your father name"name="fname"tabindex="3"/><br/><br/>
+ <br/></label>
+<label
+<label>email:</label><br/>
+<input required type="email"/placeholder="gmail id"name="tabindex="4"/><br/><br/>
+<label for="a">password</label><br/>
+ <input  required placeholder="enter your password"name="passwd"tabindex="5" type="password "id="a"/><br/><br/>
+<label>Date of Birth:</label><br/><br/>
+<input type="date"min="23-01-01"max="23-12-1"><br/><br/>
+<label>Gender:</label>
+<input checked type="radio">male
+<input type="radio">female
+<input type="radio">other<br/><br/>
+<label> Mobile</label><input type="number"/><br/><br/>
+ <label>Select your your city</label><br/>
+ <select>
+ <option>Lucknow</option>
+ <option>Azamgarh</option>
+ <option>Kanpur</option>
+ <option>Allahabad</option>
+ </select><br/><br/>
+ <label>Qualification:</label><br/><br/>
+ <input checked type="checkbox"/>10<sup>th</sup>
+ <input type="checkbox"/>12<sup>th</sup>
+ <input type="checkbox"/>Deploma
+ <input type="checkbox"/>B.tech
+ <br/><br/>
+ <label>Feedback</label><br/>
+ <textarea style="resize:zone;"rows="10"cols="30">Enter your feedback</textarea><br/><br/>
+ <label>Uploadfile:</label><br/>
+ <input required type="file"name="file"multiple accept=".jpg,png"><br/><br/>
+ <input type="submit"value="submit">
+</fieldset>
+<hr/><br/><br/>
+<fieldset style="width:400px;">
+<legend>Form</legend>
+<label>Number age</label><br>
+<input type="number"name="age"min="18"max="65"/><br/><br>
+<label>Month</label><br>
+<input type="month"min="2001"max="current"/><br/><br>
+<label>Date</label><br/>
+<input type="date"min="1999-02-20"max="2023-05-20"/><br/><br>
+<label>Images</label><br/>
+<input type="file"multiple accept="images/*"/><br><br>
+<label>Audio</label><br/>
+<input type="file"multiple accept="audio/*"/><br><br>
+<label>Video</label><br/>
+<input type="file"multiple accept="video/*"/><br><br>
+<label>pdf</label><br/>
+<input type="file"multiple accept=".pdf"><br><br>
+<input type="submit"value="save"/>
+</fieldset>
+</form>
+</body>
+</html>
